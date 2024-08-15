@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to my portfolio, in which you'll find my resume as well as some of my recent projects related to Software Engineering. 
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
