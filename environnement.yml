@@ -1,0 +1,4 @@
+name: ecs_portfolio
+channels:
+  - defaults
+prefix: C:\Users\ecald\anaconda3\envs\ecs_portfolio

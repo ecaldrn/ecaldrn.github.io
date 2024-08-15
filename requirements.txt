@@ -1,0 +1,3 @@
+# packages in environment at C:\Users\ecald\anaconda3\envs\ecs_portfolio:
+#
+# Name                    Version                   Build  Channel
