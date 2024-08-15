@@ -1,5 +1,5 @@
 #Project Info
-site_name: Enrique Calderon-Sastre
+site_name: Enrique Calderon-Sastre / Sofware Engineer
 site_url: https://ecaldrn.github.io/
 site_author: Enrique Calderon-Sastre
 site_description: >-
@@ -11,6 +11,36 @@ repo_name: ecaldrn/ecaldrn.github.io
 repo_url: https://github.com/ecaldrn/ecaldrn.github.io
 theme:
   name: material
+  language: en
+  icon:
+    logo: fontawesome/regular/keyboard
+    favicon: 
+  font:
+    text: Roboto
+  palette:
+    # Light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    # Dark mode 
+    - scheme: slate 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode    
+      primary: teal
+      accent: blue
+
+# Color configuration
+
+
+# Page features
+features:
+  search.suggest
+  content.code.annotation
+  content.code.copy
 
 # Page tree: refer to mkdocs documentation
 nav:
@@ -19,3 +49,17 @@ nav:
   - Project1.md
   - Project2.md
   - Project3.md
+
+# Links to social media
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ecaldrn
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/enriquecalderonsastre/
+    #- icon: octicons/mail-16
+      #link: ecalderon_1@hotmail.com
+      #<a href="mailto:ecalderon_1@hotmail.com">
+
+copyright: |
+  &copy; <script type="text/javascript">document. write(new Date(). getFullYear() );</script> <a href="https://github.com/ecaldrn"  target="_blank" rel="noopener">Enrique Calderon-Sastre</a>
