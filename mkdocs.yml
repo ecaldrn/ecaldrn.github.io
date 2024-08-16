@@ -9,12 +9,20 @@ site_description: >-
 # Settings
 repo_name: ecaldrn/ecaldrn.github.io
 repo_url: https://github.com/ecaldrn/ecaldrn.github.io
+
+# Plugins
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      
 theme:
   name: material
   language: en
   icon:
     logo: fontawesome/regular/keyboard
-    favicon: 
+    favicon: fontawesome/regular/keyboard
   font:
     text: Roboto
 
@@ -26,7 +34,7 @@ theme:
         icon: material/weather-night 
         name: Switch to dark mode
       primary: teal
-      accent: purple
+      accent: blue
     # Dark mode 
     - scheme: slate 
       toggle:
@@ -34,12 +42,14 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: blue
-      
+
   # Page features
   features:
     search.suggest
+    - search.highlight
     content.code.annotation
     content.code.copy
+    - navigation.top
 
 # Page tree: refer to mkdocs documentation
 nav:
@@ -48,6 +58,8 @@ nav:
   - Project1.md
   - Project2.md
   - Project3.md
+- Blog:
+  - blog/index.md
 
 # Links to social media
 extra:
