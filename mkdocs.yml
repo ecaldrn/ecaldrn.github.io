@@ -17,6 +17,8 @@ theme:
     favicon: 
   font:
     text: Roboto
+
+  # Page color settings  
   palette:
     # Light mode
     - scheme: default
@@ -32,15 +34,12 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: blue
-
-# Color configuration
-
-
-# Page features
-features:
-  search.suggest
-  content.code.annotation
-  content.code.copy
+      
+  # Page features
+  features:
+    search.suggest
+    content.code.annotation
+    content.code.copy
 
 # Page tree: refer to mkdocs documentation
 nav:
@@ -60,6 +59,12 @@ extra:
     #- icon: octicons/mail-16
       #link: ecalderon_1@hotmail.com
       #<a href="mailto:ecalderon_1@hotmail.com">
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
   &copy; <script type="text/javascript">document. write(new Date(). getFullYear() );</script> <a href="https://github.com/ecaldrn"  target="_blank" rel="noopener">Enrique Calderon-Sastre</a>
