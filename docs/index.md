@@ -2,11 +2,11 @@
 
 # Hey ! This is Enrique and welcome to my portfolio, in which you'll find my resume as well as some of my recent projects related to Software Engineering. 
 
-
-
 <p>
 I'm a <b>software engineer</b> currently working as R&D engineer in the automotive industry in Japan. Interested in automotive software (ADAS and Autonomous driving), robotics, and computer vision. Passionate about sharing and empowering students during my university days, I volunteered for student chapters to organize tech related events. 
 </p>
+
+[PDF Resume :fontawesome-solid-download:](https://drive.google.com/file/d/1C1Ag2yblmY1eCf9KK_1wazmsP2e8xIIj/view?usp=sharing){ .md-button .md-button--primary}
 
 ## **Skills**
 ------------------------------------
@@ -15,7 +15,7 @@ I'm a <b>software engineer</b> currently working as R&D engineer in the automoti
 <li>C++ (from 11 to 23 std)</li> 
 <li> 🐍 Python (Numpy, Pandas, Matplotlib, standard library)</li> 
 <li> 🤖 Machine Learning (CNNS, Tensorflow & PyTorch, Sickit-learn) </li> 
-<li> 🧑🏻‍💻 Git • SQL • Linux CLI & Bash scripting • HTML and CSS • Markdown</li>
+<li> 🧑🏻‍💻 Git • SQL • 🐧Linux CLI & Bash scripting • HTML and CSS • Markdown</li>
 </ul>
 
 **🏎️ Automotive development** 

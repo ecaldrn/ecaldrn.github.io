@@ -8,7 +8,7 @@ site_description: >-
 
 # Settings
 repo_name: ecaldrn/ecaldrn.github.io
-repo_url: https://github.com/ecaldrn/ecaldrn.github.io
+# repo_url: https://github.com/ecaldrn/ecaldrn.github.io
 
 # Plugins
 plugins:
@@ -50,6 +50,7 @@ theme:
     content.code.annotation
     content.code.copy
     - navigation.top
+    - content.tooltips
 
 # Page tree: refer to mkdocs documentation
 nav:
@@ -73,7 +74,9 @@ extra:
       #<a href="mailto:ecalderon_1@hotmail.com">
 
 markdown_extensions:
+  - abbr
   - attr_list
+  - pymdownx.snippets
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
