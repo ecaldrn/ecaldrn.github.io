@@ -19,6 +19,7 @@ plugins:
       
 theme:
   name: material
+  custom_dir: overrides/
   language: en
   icon:
     logo: fontawesome/regular/keyboard
@@ -49,16 +50,35 @@ theme:
     - search.highlight
     content.code.annotation
     content.code.copy
+    - navigation.tabs
+    - navigation.sections
     - navigation.top
     - content.tooltips
+    - content.tooltips
+    - content.code.annotation
+    - content.code.copy
 
 # Page tree: refer to mkdocs documentation
 nav:
 - Home: index.md
-- Portfolio:
-  - Project1.md
-  - Project2.md
-  - Project3.md
+- Projects:
+  - ./Projects/Project1.md
+  - ./Projects/Project2.md
+  - ./Projects/Project3.md
+  
+- Notes:
+  - Automotive SW:
+    - ./Notes/automotive/canbus.md
+  - C++:
+    - ./Notes/cpp/cpp.md
+  - Computer Science Topics:
+    - ./Notes/cs/linux.md
+  - Data Structures and Algorithms:
+    - ./Notes/dsa/ds.md
+    - ./Notes/dsa/algorithms.md
+  - Python:
+    - ./Notes/python/python.md
+
 - Blog:
   - blog/index.md
 
