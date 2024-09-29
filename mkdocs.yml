@@ -26,9 +26,7 @@ theme:
     favicon: fontawesome/regular/keyboard
   font:
     text: Roboto
-  features:
-    - content.code.annotate
-
+  
   # Page color settings  
   palette:
     # Light mode
@@ -58,6 +56,8 @@ theme:
     - content.tooltips
     - content.code.annotation
     - content.code.copy
+    - content.code.annotate
+    
 
 # Page tree: refer to mkdocs documentation
 nav:
@@ -75,8 +75,11 @@ nav:
   - Computer Science Topics:
     - ./Notes/cs/linux.md
   - Data Structures and Algorithms:
-    - ./Notes/dsa/ds.md
-    - ./Notes/dsa/algorithms.md
+    - Data Structures:
+      - ./Notes/dsa/ds.md
+    - Algorithms:
+      - ./Notes/dsa/algorithms.md
+      - ./Notes/dsa/binary_search.md
   - Python:
     - ./Notes/python/python.md
 
@@ -97,15 +100,16 @@ extra:
 markdown_extensions:
   - abbr
   - admonition
+  - attr_list
+  - def_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
-  - attr_list
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
