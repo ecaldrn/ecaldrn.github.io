@@ -1,16 +1,16 @@
-# Binary Search
-By using the divide and conquer approach, this algorithm allows us to look for elements in a **sorted** array in an efficient manner, as it reduces the search space by 2 at every iteration.
+# Reverse a linked list
+
 
 **Input** 
 
-1. nums = array of ints, **sorted** in ascending order. All the elements in nums are **unique**.
-1. target = int
+1. .
+1. .
 
-**Output**: If target exists in nums, return its index. Otherwise, return -1
+**Output**: 1
 
-**Time complexity**: O(Log(n))
+**Time complexity**: O()
 
-**Space complexity**: O(1)
+**Space complexity**: O
 
 === "C++"
 

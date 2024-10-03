@@ -1,5 +1,5 @@
 #Project Info
-site_name: Enrique Calderon-Sastre / Sofware Engineer
+site_name: Enrique Calderon-Sastre / Software Engineer
 site_url: https://ecaldrn.github.io/
 site_author: Enrique Calderon-Sastre
 site_description: >-
@@ -77,9 +77,13 @@ nav:
   - Data Structures and Algorithms:
     - Data Structures:
       - ./Notes/dsa/ds.md
+      - ./Notes/dsa/stack.md
+      - ./Notes/dsa/queue.md
+      - ./Notes/dsa/linked_lists.md
     - Algorithms:
       - ./Notes/dsa/algorithms.md
       - ./Notes/dsa/binary_search.md
+      - ./Notes/dsa/reverse_linked_list.md
   - Python:
     - ./Notes/python/python.md
 
