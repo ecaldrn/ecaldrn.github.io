@@ -84,6 +84,8 @@ nav:
       - ./Notes/dsa/algorithms.md
       - ./Notes/dsa/binary_search.md
       - ./Notes/dsa/reverse_linked_list.md
+      - ./Notes/dsa/depth_first_search.md
+      - ./Notes/dsa/breadth_first_search.md
   - Python:
     - ./Notes/python/python.md
 

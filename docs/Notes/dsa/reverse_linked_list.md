@@ -14,45 +14,37 @@
 
 === "C++"
 
-    ``` c++ linenums="1" title="Binary Search in C++"
+    ``` c++ linenums="1" title="Reverse a Linked List in C++"
     #include <vector>
 
     int search(vector<int>& nums, int target) {
-        int left = 0;
-        int right = nums.size() - 1;
-        int mid;
-
-        while (left <= right){
-
-            mid = (left + right)/2;
-
-            if (nums[mid] == target)
-                return mid;
-            else if (target > nums[mid])
-                left = mid + 1;
-            else
-                right = mid - 1;
-        }
-        return -1;
     }
     ```
 
 === "Python"
 
-    ``` py linenums="1" title="Binary Search in Python"
-    def search(nums: list[int], target: int) -> int:
-        left = 0 
-        right = len(nums) - 1
+    ``` py linenums="1" title="Reverse a Linked List in Python"
+    # Definition for singly-linked list.
+    class ListNode:
+        def __init__(self, val=0, next=None):
+            self.val = val
+            self.next = next
 
-        while left <= right:
-            mid = (left + right)//2
+    # Input: head of a linked list
+    # Output: Return the reversed list.
+    # Time O(n)
+    # Space O(1)
 
-            if nums[mid] == target:
-                return mid
-            elif target > nums[mid]:
-                left = mid + 1
-            else:
-                right = mid - 1
+    class Solution:
+        def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+            current = head
+            prev = None
 
-        return -1
+            while (current):
+                tmp = current.next # Keeps the list from current.next till the end
+                current.next = prev # Change the orientation of the nodes links (reverses the connections)
+                prev = current # Moves in to the next node
+                current = tmp
+                
+            return prev
     ```

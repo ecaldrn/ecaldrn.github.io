@@ -14,7 +14,7 @@ By using the divide and conquer approach, this algorithm allows us to look for e
 
 === "C++"
 
-    ``` c++ linenums="1" title="Binary Search in C++"
+    ``` c++ linenums="1" title="Binary Search"
     #include <vector>
 
     int search(vector<int>& nums, int target) {
@@ -39,7 +39,7 @@ By using the divide and conquer approach, this algorithm allows us to look for e
 
 === "Python"
 
-    ``` py linenums="1" title="Binary Search in Python"
+    ``` py linenums="1" title="Binary Search"
     def search(nums: list[int], target: int) -> int:
         left = 0 
         right = len(nums) - 1

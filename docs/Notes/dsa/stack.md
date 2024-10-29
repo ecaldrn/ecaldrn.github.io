@@ -1,5 +1,5 @@
 # Stack
-A stack is a LIFO (Last In, First Out) linear structure. You can think the stack as a stack of plates in a restaurant, in which you cannot get the plate in the bottom without removing the ones that are on top. Stacks can be used as base to create another data structures. 
+A stack is a LIFO (Last In, First Out) linear structure. In a stack, insertions and deletions made only in one end, called the top of the stack. You can think the stack as a stack of plates in a restaurant, in which you cannot get the plate in the bottom without removing the ones that are on top. Stacks can be used as base to create another data structures. 
 
 ## Member functions and atributes
 
@@ -7,7 +7,7 @@ A stack is a LIFO (Last In, First Out) linear structure. You can think the stack
 
 * Stack.pop(): Retrieves, removes from stack, and returns the element in the top of the stack (last element added). It has a running time of O(1).
 
-* Stack.top(): References to the element in the top of the stack without removing it. Points to the last element added and if the stack is empty, an error arises.
+* Stack.top(): References to the element in the top of the stack without removing it. Points to the last element added and if the stack is empty, an error arises. Also refered as Stack.peek()
 
 * Stack.isEmpty(): Boolean attribute, indicates if the stack is empty or not. 
 
@@ -18,16 +18,36 @@ Stacks are used in a wide variety of scenarios, such as the stack that saves our
 
 Another application of stacks is seen in web browsers, which keep a record of recently visited sites wo you can move easily between visited pages.
 
-Stacks are also used to verify matching expressions, such as opening-closing pairs of parenthesis, brackets, or even markup tags. 
+Stacks are also used to verify matching expressions, such as opening-closing pairs of parenthesis, brackets, or even markup tags. Artithmetic expressions can also be verified using stacks through Reverse Polish notation. 
 
 ## Code Implementation
-For the main implementation, 
+For the main implementation, we used the List data type as base for our Stack class.
 
 ### Python implementation
 === "Python"
 
-    ``` py linenums="1" title="Single Linked List"
-        return -1
+    ``` py linenums="1" title="Binary Search in Python"
+    class Stack:
+        def __init__(self):
+        self.items = []
+
+        def is_empty(self):
+            return not self.items #Same as len(self.items) == 0
+        
+        def push(self, item):
+            self.items.append(item)
+
+        def pop(self):
+            return self.items.pop()
+        
+        def peek(self):
+            return self.items[-1]
+        
+        def size(self):
+            return len(self.items)
+        
+        def __str__(self):
+            return str(self.items)
     ```
 
 ### C++ implementation
