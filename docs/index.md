@@ -2,7 +2,7 @@
 [//]: # (python -m mkdocs serve) 
 [//]: # (pip install mkdocs-material) 
 
-<img alt="Picture of Enrique Calderon-Sastre" height="150px" width="150px"  src="https://media.licdn.com/dms/image/v2/D5603AQF0f6imWL_MZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719557555336?e=1735171200&v=beta&t=MiAqUQ3spesEwVYu3BZJKMZe8ScpDXrNDwiiBZuA9M0" align="left" hspace="20px" style="border-radius: 50%;">
+<img alt="Picture of Enrique Calderon-Sastre" height="150px" width="150px"  src="./img/Profile.jpg" align="left" hspace="20px" style="border-radius: 50%;">
 
 # Hey ! Welcome to my portfolio, where you'll find my resume, notes about my learning journey as well as my projects related to Software Engineering. 
 
@@ -10,7 +10,7 @@
 I'm a <b>software engineer</b> that is currently working in R&D in the automotive industry in Japan. I am interested in automotive software (ADAS and Autonomous driving), robotics, and computer vision. Passionate about sharing and empowering students during my university days, I volunteered for IEEE student chapter of my university to organize tech related events. <br> Hobbies:🏀,🏐,🎧. 
 </p>
 
-[PDF Resume :fontawesome-solid-download:](https://drive.google.com/file/d/1C1Ag2yblmY1eCf9KK_1wazmsP2e8xIIj/view?usp=sharing){ .md-button .md-button--primary}
+[PDF Resume :fontawesome-solid-download:](https://drive.google.com/file/d/1uUTIo6_fLMwP3pn4TTiGTOrXAxDMwXKW/view?usp=sharing){ .md-button .md-button--primary}
 
 ## **Skills**
 ------------------------------------
@@ -37,12 +37,13 @@ Spanish (mother tongue), English native (TOEFL 560 | TOEIC 960), Japanese (busin
 ## **Experience**
 --------------------------------
 ### Research and Development Engineer @ Mazda Motor Corporation  • Oct 2023 - Present
-Made the system model validation of the testing scenarios for the Autonomous Emergency Braking System (AEB) feature for safety tests such as NCAP test protocols. Worked in planning and simulation of features related with Smart Brake Support (SBS) ADAS system using Matlab Simulink, CarMaker.
+* Validated the Autonomous Emergency Braking System (AEB) model through the design, implementation and execution of the testing scenarios required to pass test protocols such as NCAP.
+* Integrated model and evaluation pipeline for pedal misapplication and acceleration suppression features in Smart Brake Support (SBS) ADAS system using Matlab, Simulink, and CarMaker.
 
 ## **Education**
 ------------------------------------
 ### M.E. in Electrical, Systems and Control Engineering • Hiroshima University • Oct 2021 - Sep 2023
-Global Jinzai Program grant receiver. Worked in the Biological Systems Engineering Laboratory in the Human Modelling and Augmentation Group. Majored in soft robotics control algorithms for rehabilitation devices.
+Global Jinzai Program grant receiver. Member of the Biological Systems Engineering Laboratory in the Human Modelling and Augmentation Group. Majored in soft robotics control algorithms for rehabilitation devices.
 
 * 3 papers published during the two years as well as speaker in International Conferences.
 * 1 book chapter authored on VR systems for rehabilitation.

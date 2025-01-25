@@ -44,7 +44,7 @@ We have a recursive and iterative approaches for DFS, and even though they both 
             if not marked[w]:
                 dfs(graph, w)
     ```
-    ``` py linenums="2" title="DFS iterative approach"
+    ``` py linenums="1" title="DFS iterative approach"
     # We will use a stack to keep track of nodes to visit
     marked = [False] * graph.size()
 
